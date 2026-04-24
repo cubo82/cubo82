@@ -712,6 +712,14 @@ i {
   .caixa-briefing {
     padding: 2rem;
   }
+
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog-card {
+    gap: 100px;
+  }
 }
 
 /* Responsividade Mobile */
@@ -721,5 +729,17 @@ i {
   }
   .service-item {
     height: 350px;
+  }
+
+  .blog-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .blog-card {
+    gap: 10px;
+  }
+
+  .field {
+    width: 90%;
   }
 }
