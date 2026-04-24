@@ -491,8 +491,8 @@
                 </p>
               </div>
               <button
-                class="botao js-guide-btn"
-                data-guide="guides/guia-logo-profissional-cubo82.pptx"
+                class="botao guia-download"
+                data-guide="guides/guia-logo-profissional-cubo82.pdf"
                 data-guide-title="Como saber se sua empresa precisa de um logo profissional"
               >
                 Baixar este guia
@@ -508,8 +508,8 @@
                 </p>
               </div>
               <button
-                class="botao guia-download js-guide-btn"
-                data-guide="guides/guia-instagram-clientes-cubo82.pptx"
+                class="botao guia-download"
+                data-guide="guides/guia-instagram-clientes-cubo82.pdf"
                 data-guide-title="Por que seu Instagram pode estar afastando clientes"
               >
                 Baixar este guia
@@ -525,8 +525,8 @@
                 </p>
               </div>
               <button
-                class="botao guia-download js-guide-btn"
-                data-guide="guides/guia-site-pequenas-empresas-cubo82.pptx"
+                class="botao guia-download"
+                data-guide="guides/guia-site-pequenas-empresas-cubo82.pdf"
                 data-guide-title="Vale a pena fazer um site para pequenas empresas?"
               >
                 Baixar este guia
@@ -542,8 +542,8 @@
                 </p>
               </div>
               <button
-                class="botao guia-download js-guide-btn"
-                data-guide="guides/guia-redes-sociais-profissionais-cubo82.pptx"
+                class="botao guia-download"
+                data-guide="guides/guia-redes-sociais-profissionais-cubo82.pdf"
                 data-guide-title="Como parecer mais profissional nas redes sociais"
               >
                 Baixar este guia
@@ -560,8 +560,8 @@
               </div>
 
               <button
-                class="botao guia-download js-guide-btn"
-                data-guide="guides/guia-confianca-na-marca-cubo82.pptx"
+                class="botao guia-download"
+                data-guide="guides/guia-confianca-na-marca-cubo82.pdf"
                 data-guide-title="O que faz um cliente confiar na sua marca"
               >
                 Baixar este guia
@@ -582,6 +582,7 @@
                 próximo passo.
               </p>
             </div>
+            <input type="hidden" id="guia-pendente" value="" />
             <form id="form-briefing" class="grade-form">
               <div class="field">
                 <label for="empresa">Nome da empresa</label>
@@ -708,8 +709,15 @@
           />
           <p>Sua empresa pronta para o próximo nível.</p>
           <div class="sociais">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://www.instagram.com/soucubo82/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a target="_blank" rel="noopener" href="https://wa.me/5541996224106"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
           </div>
         </div>
 
@@ -726,6 +734,7 @@
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
